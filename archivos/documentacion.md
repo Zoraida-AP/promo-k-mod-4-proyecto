@@ -2,13 +2,13 @@
 
 REVISION CSV✨
 
-**Ventas en Navidad**
+**Ventas en Navidad** (Patri)
 
 - https://www.kaggle.com/datasets/surabhimahawar/christmas-sales-and-trends-december-2023
 
 - https://www.kaggle.com/datasets/ibikunlegabriel/christmas-sales-and-trends
 
-**Vuelos**
+**Vuelos** (Iara)
 
 - https://www.kaggle.com/datasets/umerhaddii/european-flights-dataset
 
@@ -20,7 +20,7 @@ REVISION CSV✨
 
 - https://www.kaggle.com/datasets/adityak957/imdb-christmas-movies-from-20162022 -> nombre csv: christmas_movies_02 ->
 
-**Villancicos**
+**Villancicos** (Zoraida)
 
 - https://www.kaggle.com/datasets/sharkbait1223/billboard-top-100-christmas-carol-dataset
 
