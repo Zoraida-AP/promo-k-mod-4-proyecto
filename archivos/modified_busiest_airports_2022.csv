@@ -1,0 +1,51 @@
+Rank,lat,long,Airport,Location,Country,Code (IATA/ICAO),Total passengers
+1.0,33.6324,-84.4277,Hartsfield–Jackson Atlanta International Airport,"Atlanta, Georgia",United States,ATL/KATL,93699630
+2.0,32.8998,-97.0403,Dallas Fort Worth International Airport,"Dallas–Fort Worth, Texas",United States,DFW/KDFW,73362946
+3.0,39.8561,-104.6737,Denver International Airport,"Denver, Colorado",United States,DEN/KDEN,69286461
+4.0,41.9742,-87.9073,O'Hare International Airport,"Chicago, Illinois",United States,ORD/KORD,68340619
+5.0,25.2532,55.3657,Dubai International Airport,"Garhoud, Dubai",United Arab Emirates,DXB/OMDB,66069981
+6.0,33.9416,-118.4085,Los Angeles International Airport,"Los Angeles, California",United States,LAX/KLAX,65924298
+7.0,41.2756,28.7519,Istanbul Airport,"Arnavutköy, Istanbul",Turkey,IST/LTFM,64289107
+8.0,51.47,-0.4543,Heathrow Airport,"Hillingdon, London",United Kingdom,LHR/EGLL,61614508
+9.0,28.5562,77.1,Indira Gandhi International Airport,"Palam, Delhi",India,DEL/VIDP,59490074
+10.0,49.0097,2.5479,Charles de Gaulle Airport,"Roissy-en-France, Île-de-France",France,CDG/LFPG,57474033
+11.0,40.641766,-73.780968,John F. Kennedy International Airport,"Queens, New York City, New York",United States,JFK/KJFK,55287693
+12.0,36.08601,-115.153969,Harry Reid International Airport,"Las Vegas, Nevada",United States,LAS/KLAS,52694312
+13.0,52.308056,4.764167,Amsterdam Airport Schiphol,"Haarlemmermeer, North Holland",Netherlands,AMS/EHAM,52472188
+14.0,25.7933,-80.2906,Miami International Airport,"Miami-Dade County, Florida",United States,MIA/KMIA,50684396
+15.0,40.49222,-3.57167,Adolfo Suárez Madrid–Barajas Airport,Madrid,Spain,MAD/LEMD,50602864
+16.0,35.5494,139.7798,Tokyo Haneda Airport,"Ōta, Tokyo",Japan,HND/RJTT,50290705
+17.0,28.424618,-81.310753,Orlando International Airport,"Orlando, Florida",United States,MCO/KMCO,50176103
+18.0,50.0333,8.5706,Frankfurt Airport,"Frankfurt, Hesse",Germany,FRA/EDDF,48918482
+19.0,35.214,-80.9431,Charlotte Douglas International Airport,"Charlotte, North Carolina",United States,CLT/KCLT,47758605
+20.0,19.4363,-99.0721,Mexico City International Airport,"Venustiano Carranza, Mexico City",Mexico,MEX/MMMX,46261729
+21.0,47.4484,-122.3086,Seattle–Tacoma International Airport,"SeaTac, Washington",United States,SEA/KSEA,45964321
+22.0,33.4352,-112.0101,Phoenix Sky Harbor International Airport,"Phoenix, Arizona",United States,PHX/KPHX,44397854
+23.0,40.6895,-74.1745,Newark Liberty International Airport,"Newark, New Jersey",United States,EWR/KEWR,43565254
+24.0,37.6193,-122.3816,San Francisco International Airport,"San Mateo County, California",United States,SFO/KSFO,42210201
+25.0,41.29498,2.08767,Josep Tarradellas Barcelona–El Prat Airport,Barcelona,Spain,BCN/LEBL,41616302
+26.0,29.9931,-95.3416,George Bush Intercontinental Airport,"Houston, Texas",United States,IAH/KIAH,40974831
+27.0,-6.125556,106.65583,Soekarno–Hatta International Airport,"Tangerang, Banten",Indonesia,CGK/WIII,38791168
+28.0,19.0902,72.8628,Chhatrapati Shivaji Maharaj International Airport,"Santacruz-Sahar, Mumbai, Maharashtra",India,BOM/VABB,38332106
+29.0,43.6771,-79.6334,Toronto Pearson International Airport,"Mississauga, Ontario",Canada,YYZ/CYYZ,36356109
+30.0,42.3654,-71.0108,Logan International Airport,"East Boston, Massachusetts",United States,BOS/KBOS,36112473
+31.0,25.2601,51.614,Hamad International Airport,Doha,Qatar,DOH/OTHH,35730482
+32.0,4.701,-74.1461,El Dorado International Airport,Bogotá,Colombia,BOG/SKBO,35362529
+33.0,-23.4302,-46.4717,São Paulo/Guarulhos International Airport,Guarulhos,Brazil,GRU/SBGR,34466946
+34.0,10.8158,106.6641,Tan Son Nhat International Airport,Ho Chi Minh City,Vietnam,SGN/VVTS,34278320
+35.0,51.1537,0.1821,London Gatwick Airport,"Crawley, West Sussex",United Kingdom,LGW/EGKK,32848088
+36.0,1.3586,103.9899,Singapore Changi Airport,"Changi, East Region",Singapore,SIN/WSSS,32202000
+37.0,26.072,-80.1501,Fort Lauderdale–Hollywood International Airport,"Broward County, Florida",United States,FLL/KFLL,31686404
+38.0,21.683,39.1667,King Abdulaziz International Airport,Jeddah,Saudi Arabia,JED/OEJN,31648324
+39.0,48.3536,11.7832,Munich Airport,"Freising, Bavaria",Germany,MUC/EDDM,31642738
+40.0,36.9143,30.8036,Antalya Airport,Antalya,Turkey,AYT/LTAI,31228377
+41.0,40.898335,29.309168,Istanbul Sabiha Gökçen International Airport,"Pendik, Istanbul",Turkey,SAW/LTFJ,30780357
+42.0,44.8851,-93.2144,Minneapolis/St Paul International Airport,"St. Paul, Minnesota",United States,MSP/KMSP,30622784
+43.0,21.0419,-86.8744,Cancún International Airport,Cancún,Mexico,CUN/MMUN,30484094
+44.0,14.5123,121.0165,Ninoy Aquino International Airport,"Pasay/Parañaque, Metro Manila",Philippines,MNL/RPLL,30329426
+45.0,33.5071,126.4934,Jeju International Airport,Jeju City,South Korea,CJU/RKPC,29703669
+46.0,41.8035,12.2519,Leonardo da Vinci–Fiumicino Airport,"Fiumicino, Rome metro",Italy,FCO/LIRF,29346365
+47.0,48.7299,2.3732,Orly Airport,"Orly, Paris metro",France,ORY/LFPO,29187269
+48.0,-33.95,151.1817,Sydney Airport,Sydney,Australia,SYD/YSSY,29094483
+49.0,40.7766,-73.8742,LaGuardia Airport,"Queens, New York City",United States,LGA/KLGA,28997592
+50.0,13.6923,100.7507,Suvarnabhumi Airport,"Racha Thewa, Bangkok metro",Thailand,BKK/VTBS,28754314
