@@ -28,9 +28,12 @@ REVISION CSV✨
 
 **Villancicos** (Zoraida)
 
-- https://www.kaggle.com/datasets/sharkbait1223/billboard-top-100-christmas-carol-dataset
+- https://www.kaggle.com/datasets/sharkbait1223/billboard-top-100-christmas-carol-dataset -> de aqui podemos sacar algo. "christmas_billboard_data.csv"
 
-- https://www.kaggle.com/datasets/leonardopena/top-50-spotify-songs-by-each-country
+- https://www.kaggle.com/datasets/leonardopena/top-50-spotify-songs-by-each-country -> No nos sirve. "top50contry.csv"
+
+- OPCIÓN: sacar nuestro propio dataset de spotipy.
+
 
 // Opciones secundarias //
 
