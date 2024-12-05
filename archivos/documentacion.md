@@ -8,7 +8,7 @@ REVISION CSV✨
 
 - https://www.kaggle.com/datasets/ibikunlegabriel/christmas-sales-and-trends
 
---> Se usara ✨
+--> Se usara christmas-sales-and-trends✨ (son exactamente iguales)
 
 **Vuelos** (Iara)
 
