@@ -8,17 +8,23 @@ REVISION CSV✨
 
 - https://www.kaggle.com/datasets/ibikunlegabriel/christmas-sales-and-trends
 
+--> Se usara ✨
+
 **Vuelos** (Iara)
 
 - https://www.kaggle.com/datasets/umerhaddii/european-flights-dataset
 
 - https://www.kaggle.com/datasets/lukeotieno/busiest-airports-by-passenger-traffic2022
 
+--> Se usara european-flights-dataset ✨
+
 **Peliculas** (Maca)
 
-- https://www.kaggle.com/datasets/jonbown/christmas-movies -> nombre csv: christmas_movies_01 -> analisis de dinero invertido en las peliculas (gross), años de lanzamiento para ver en que años se han lanzado más.
+- https://www.kaggle.com/datasets/jonbown/christmas-movies -> nombre csv: christmas_movies_01
 
-- https://www.kaggle.com/datasets/adityak957/imdb-christmas-movies-from-20162022 -> nombre csv: christmas_movies_02 ->
+- https://www.kaggle.com/datasets/adityak957/imdb-christmas-movies-from-20162022 -> nombre csv: christmas_movies_02
+
+--> Se usara el christmas_movies_01 ✨
 
 **Villancicos** (Zoraida)
 
