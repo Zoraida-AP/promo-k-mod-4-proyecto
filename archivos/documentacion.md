@@ -9,7 +9,10 @@ REVISION CSV✨
 - https://www.kaggle.com/datasets/ibikunlegabriel/christmas-sales-and-trends
 
 --> Se usara christmas-sales-and-trends✨ (son exactamente iguales)
---> Estaria bien tener una grafica por ventas por paises en Navidad (PDTE)
+
+- CSV de amazon -> Amazon Sales FY2020-21
+  - Tenemos los datos de estos años/meses -> ['Oct-20' 'Nov-20' 'Dec-20' 'Jan-21' 'Feb-21' 'Mar-21' 'Apr-21' 'May-21' 'Jun-21' 'Jul-21' 'Aug-21' 'Sep-21']
+  - Hay clasificacion por genero, precio del producto, categoria del productos -> podriamos analizar en que gastan mas hombres/mujeres, categorias de productos mas vendidas segun la epoca del año...
 
 **Vuelos** (Iara)
 
