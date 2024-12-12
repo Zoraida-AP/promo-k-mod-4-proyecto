@@ -10,6 +10,8 @@ REVISION CSV✨
 
 --> Se usara christmas-sales-and-trends✨ (son exactamente iguales)
 
+-->
+
 - CSV de amazon -> Amazon Sales FY2020-21
   - Tenemos los datos de estos años/meses -> ['Oct-20' 'Nov-20' 'Dec-20' 'Jan-21' 'Feb-21' 'Mar-21' 'Apr-21' 'May-21' 'Jun-21' 'Jul-21' 'Aug-21' 'Sep-21']
   - Hay clasificacion por genero, precio del producto, categoria del productos -> podriamos analizar en que gastan mas hombres/mujeres, categorias de productos mas vendidas segun la epoca del año...
@@ -21,6 +23,7 @@ REVISION CSV✨
 - https://www.kaggle.com/datasets/lukeotieno/busiest-airports-by-passenger-traffic2022
 
 --> Se usara european-flights-dataset ✨
+--> Podemos utilizar para comparar los vuelos entre los meses del año a lo largo de 2016 hasta 2022. También la diferencia entre países, y la media de la UE, y aeropuertos con mas traficos.
 
 **Peliculas** (Maca)
 
@@ -29,6 +32,8 @@ REVISION CSV✨
 - https://www.kaggle.com/datasets/adityak957/imdb-christmas-movies-from-20162022 -> nombre csv: christmas_movies_02
 
 --> Se usara el christmas_movies_01 ✨
+--> Top 10 de las peliculas con mas votos comparando el total de votos con el presupuesto de la pelicula
+--> Analisis del numero de peliculas lanzadas por años para ver si hay picos de produccion y ver por que
 
 **Villancicos** (Zoraida)
 
@@ -38,8 +43,6 @@ REVISION CSV✨
 
 - Podemos sacar algo de "christmas_billboard_data.csv" -> tenemos año, podemos hacer graficas que muestren los villancicos mas antiguos
 - OPCIÓN: sacar nuestro propio dataset de spotipy.
-
-// Opciones secundarias //
 
 **Recetas**
 
@@ -58,6 +61,3 @@ REVISION CSV✨
 - https://www.kaggle.com/datasets/thedevastator/us-christmas-tree-sales-data -> US Christmas Tree Sales - 2010 to 2016
 
 - Tiene pocos datos pero suficientes para hacer comparativas por año, tipo de arbol vendido e ingreso generado
-
-**Consumo de alcohol**
-PDTE
