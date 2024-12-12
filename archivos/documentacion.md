@@ -41,10 +41,11 @@ REVISION CSV✨
 
 - https://www.kaggle.com/datasets/sharkbait1223/billboard-top-100-christmas-carol-dataset -> "christmas_billboard_data.csv"
 
-- https://www.kaggle.com/datasets/leonardopena/top-50-spotify-songs-by-each-country -> No nos sirve. "top50contry.csv"
+--> Tenemos año en el que alcanzo lista de exitos desde 1958 y la posicion que alcanzo
 
-- Podemos sacar algo de "christmas_billboard_data.csv" -> tenemos año, podemos hacer graficas que muestren los villancicos mas antiguos
-- OPCIÓN: sacar nuestro propio dataset de spotipy.
+- https://www.kaggle.com/datasets/thedevastator/top-holiday-songs-chart-2011-2018-> "Top 20 Holiday Songs 2011 - 2018"
+
+--> Tenemos año en el que alcanzo lista de exitos desde 2011-2017 y la posicion que alcanzo
 
 **Recetas**
 
