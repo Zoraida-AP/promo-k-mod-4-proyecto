@@ -1,0 +1,17 @@
+{
+    "name": "Navidad",
+    "dataColors": [
+        "#D32F2F",
+        "#388E3C",
+        "#FFC107",
+        "#B0BEC5",
+        "#81D4FA",
+        "#B71C1C",
+        "#1B5E20",
+        "#FFE082",
+        "#CFD8DC"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#388E3C"
+}
