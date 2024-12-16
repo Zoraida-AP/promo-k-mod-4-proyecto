@@ -64,3 +64,12 @@ REVISION CSV✨
 - https://www.kaggle.com/datasets/thedevastator/us-christmas-tree-sales-data -> US Christmas Tree Sales - 2010 to 2016
 
 - Tiene pocos datos pero suficientes para hacer comparativas por año, tipo de arbol vendido e ingreso generado
+
+**Loteria** -> Patri
+
+//////////////////////
+
+Iara -> vuelos, caramelo
+Patri -> Loteria, recetas (pendiente buscar nueva info)
+Maca -> peliculas, ventas arboles
+Zoraida -> Villancicos, ventas navidad
