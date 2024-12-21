@@ -1,0 +1,24 @@
+CSV LOTERIA_COMUNIDADES:
+
+let
+    Origen = Csv.Document(File.Contents("C:\Users\Patricia\OneDrive\ADALAB\PROYECTO_MOD_4\loteria\loteria_comunidades.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"", Int64.Type}, {"Unnamed: 0.1", Int64.Type}, {"Unnamed: 0", Int64.Type}, {"Año", Int64.Type}, {"Periodo", type text}, {"C.C.A.A", type text}, {"Gasto medio (€/hab)", type number}, {"Lotería de Navidad Consignada (millones de euros)", type number}}),
+    #"Columna condicional agregada" = Table.AddColumn(#"Tipo cambiado", "Premios", each if [#"Lotería de Navidad Consignada (millones de euros)"] <= 51 then "0 -51M" else if [#"Lotería de Navidad Consignada (millones de euros)"] < 108 then "52 - 108M" else if [#"Lotería de Navidad Consignada (millones de euros)"] < 154 then "108 - 154M" else if [#"Lotería de Navidad Consignada (millones de euros)"] < 200 then "154 - 200M" else if [#"Lotería de Navidad Consignada (millones de euros)"] < 300 then "200 - 300M" else if [#"Lotería de Navidad Consignada (millones de euros)"] < 400 then "300 - 400M" else if [#"Lotería de Navidad Consignada (millones de euros)"] >= 400 then "+400M" else "OTRO")
+in
+    #"Columna condicional agregada"
+
+
+CSV HISTORICO_PREMIOS_LOTERIAS:
+
+let
+    Origen = Csv.Document(File.Contents("C:\Users\Patricia\OneDrive\ADALAB\PROYECTO_MOD_4\loteria\historico_premios_loteria.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"", Int64.Type}, {"Año", Int64.Type}, {"Periodo", type text}, {"Premio", Int64.Type}}),
+    #"Columna condicional agregada" = Table.AddColumn(#"Tipo cambiado", "Personalizado", each if [Premio] <= 30000 then "Del 00000 al 30.000" else if [Premio] <= 60000 then "Del 30.001 al 60.000" else if [Premio] > 60000 then "Del 60.001 al 90.000" else null),
+    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columna condicional agregada",{{"Personalizado", "Rango_premios"}})
+in
+    #"Columnas con nombre cambiado"
+
+
+
