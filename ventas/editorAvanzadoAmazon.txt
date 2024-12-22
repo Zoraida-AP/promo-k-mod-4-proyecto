@@ -1,0 +1,9 @@
+let
+    Origen = Csv.Document(File.Contents("C:\Users\angel\Desktop\ADALAB\OneDrive\ADALAB\PROYECTO_MOD_4\ventas\AmazonSales20-21Drop.csv"),[Delimiter=",", Columns=24, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"", Int64.Type}, {"order_id", Int64.Type}, {"order_date", type date}, {"status", type text}, {"item_id", Int64.Type}, {"sku", type text}, {"qty_ordered", Int64.Type}, {"price", type text}, {"value", type text}, {"discount_amount", type text}, {"total", type text}, {"category", type text}, {"cust_id", Int64.Type}, {"year", Int64.Type}, {"month", type date}, {"ref_num", Int64.Type}, {"Gender", type text}, {"age", Int64.Type}, {"Sign in date", type text}, {"Place Name", type text}, {"County", type text}, {"City", type text}, {"State", type text}, {"Zip", Int64.Type}}),
+    #"Valor reemplazado" = Table.ReplaceValue(#"Tipo cambiado",".",",",Replacer.ReplaceText,{"price", "value", "discount_amount", "total"}),
+    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Valor reemplazado",{{"price", type number}, {"value", type number}, {"discount_amount", type number}, {"total", type number}}),
+    #"Columna condicional agregada" = Table.AddColumn(#"Tipo cambiado1", "edad_categoría", each if [age] <= 35 then "18 a 35 años" else if [age] <= 55 then "36 a 55 años" else if [age] > 55 then "55 - 75 años" else null)
+in
+    #"Columna condicional agregada"
