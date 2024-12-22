@@ -1,0 +1,8 @@
+let
+    Origen = Csv.Document(File.Contents("C:\Users\angel\Desktop\ADALAB\OneDrive\ADALAB\PROYECTO_MOD_4\arboles\US Christmas Tree Sales - 2010 to 2016.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"index", Int64.Type}, {"Year", Int64.Type}, {"Type of tree", type text}, {"Number of trees sold", Int64.Type}, {"Average Tree Price", type text}, {"Sales", Int64.Type}}),
+    #"Valor reemplazado" = Table.ReplaceValue(#"Tipo cambiado",".",",",Replacer.ReplaceText,{"Average Tree Price"}),
+    #"Columna condicional agregada" = Table.AddColumn(#"Valor reemplazado", "Tipo de arbol", each if [Type of tree] = "Fake tree" then "Artificial" else if [Type of tree] = "Real tree" then "Natural" else null)
+in
+    #"Columna condicional agregada"
